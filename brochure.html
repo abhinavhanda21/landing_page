@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Brochure — AI Fraud Detection for Insurance Claims</title>
+  <meta name="description" content="Printable one-page brochure: AI-powered fraud detection for insurance claims.">
+  <meta property="og:title" content="AI‑Powered Fraud Detection — Brochure">
+  <meta property="og:description" content="Printable brochure: detect fraud earlier, reduce losses, protect your bottom line.">
+  <meta property="og:image" content="assets/og-brochure.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/og-image.svg">
+  <link rel="icon" href="assets/og-image.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Brochure — AI Fraud Detection",
+    "description": "Printable one-page brochure: AI-powered fraud detection for insurance claims.",
+    "url": "https://yourdomain.com/brochure.html"
+  }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Brochure-specific layout optimized for print */
+    body{background:#fff;color:#0f1724}
+    .brochure{max-width:800px;margin:20px auto;padding:28px;border:1px solid #e6eef6}
+    h1{margin-top:0}
+    .lead{font-size:16px;color:#475569}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .feature{padding:12px;border-radius:8px;background:#f8fafc}
+    .contact-block{margin-top:18px;padding:12px;border-radius:8px;background:#e6eef6}
+    @media print{.brochure{border:0}}
+  </style>
+</head>
+<body>
+  <div class="brochure" role="document">
+    <header>
+      <h1>AI‑Powered Fraud Detection for Insurance Claims</h1>
+      <p class="lead">Stop fraudulent claims before they drain your loss ratio. Specialized AI to detect fraud earlier, reduce losses, and protect your bottom line.</p>
+    </header>
+
+    <section class="two-col">
+      <div>
+        <h3>Core Capabilities</h3>
+        <div class="feature">
+          <strong>Real-Time Fraud Scoring</strong>
+          <p>Automated fraud likelihood (0–100) using behavior, history, and content analysis.</p>
+        </div>
+        <div class="feature">
+          <strong>Narrative & Document Analysis</strong>
+          <p>LLMs surface contradictions, omissions, and suspicious phrasing across claims.</p>
+        </div>
+        <div class="feature">
+          <strong>Image Fraud Detection</strong>
+          <p>Detect manipulated, reused, or AI-generated images with CV and metadata checks.</p>
+        </div>
+      </div>
+
+      <div>
+        <h3>Operational Outcomes</h3>
+        <div class="feature">
+          <strong>SIU Prioritization</strong>
+          <p>Automated triage and case packs let investigators focus on highest-value cases.</p>
+        </div>
+        <div class="feature">
+          <strong>Duplicate Detection</strong>
+          <p>Find linked claims, shared assets, and fraud rings across portfolios.</p>
+        </div>
+        <div class="feature">
+          <strong>Continuous Learning</strong>
+          <p>Models adapt over time using labeled investigations and feedback loops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <h3>Pricing (Typical)</h3>
+      <ul>
+        <li><strong>Fixed-Price Implementation:</strong> $8,000 – $25,000</li>
+        <li><strong>Monthly Monitoring:</strong> $1,500 – $4,000/month</li>
+      </ul>
+    </section>
+
+    <section class="contact-block" aria-label="Contact">
+      <h3>Get Started</h3>
+      <p>Book a consultation or request a demo to see how our AI can reduce your fraud losses.</p>
+      <p>Email: <a href="mailto:hello@yourcompany.com">hello@yourcompany.com</a></p>
+      <p>Website: <a href="index.html">Return to site</a></p>
+    </section>
+
+    <footer style="margin-top:18px;font-size:13px;color:#61748a">© <span id="year"></span> AI Fraud Detection — For insurance carriers, MGAs, TPAs</footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

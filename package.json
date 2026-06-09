@@ -1,0 +1,11 @@
+{
+  "name": "ai-fraud-detection-site",
+  "version": "1.0.0",
+  "description": "Static landing page for AI-powered fraud detection for insurance claims",
+  "scripts": {
+    "start": "npx serve . --listen 8080",
+    "generate-og": "node generate-og.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
